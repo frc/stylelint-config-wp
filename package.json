@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-wp",
+  "version": "0.0.1",
+  "description": "Stylelint config for frc wp starter theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frc/stylelint-config-wp.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Stylelint"
+  ],
+  "author": "Janne Aalto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frc/stylelint-config-wp/issues"
+  },
+  "homepage": "https://github.com/frc/stylelint-config-wp#readme",
+  "dependencies": {
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.14.2"
+  }
+}
