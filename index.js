@@ -3,8 +3,7 @@ module.exports = {
         "stylelint-scss"
     ],
     "extends": [
-        "stylelint-config-standard",
-        "stylelint-config-rational-order"
+        "stylelint-config-standard"
     ],
     "rules": {
         "indentation": 4,
