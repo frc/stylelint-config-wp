@@ -1,6 +1,6 @@
 {
   "name": "@frc/stylelint-config-wp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stylelint config for frc wp starter theme",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,7 @@
   },
   "homepage": "https://github.com/frc/stylelint-config-wp#readme",
   "dependencies": {
-    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.14.2"
   },
   "devDependencies": {}
