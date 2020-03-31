@@ -93,10 +93,10 @@ module.exports = {
         "scss/at-else-empty-line-before": "never",
         "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
         "scss/at-if-closing-brace-space-after": "always-intermediate",
-        "selector-class-pattern": "^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
-        "scss/dollar-variable-pattern": "^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
-        "scss/percent-placeholder-pattern": "^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
-        "no-duplicate-selectors": [ true ],
+        "selector-class-pattern": "^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)*(--([a-z0-9]+-?)+)*(__([a-z0-9]+-?)+){0,2}$",
+        "scss/dollar-variable-pattern": "^[a-z_]([a-z0-9-]+)?(__([a-z0-9]+-?)+)*(--([a-z0-9]+-?)+)*(__([a-z0-9]+-?)+){0,2}$",
+        "scss/percent-placeholder-pattern": "^[a-z_]([a-z0-9-]+)?(__([a-z0-9]+-?)+)*(--([a-z0-9]+-?)+)*(__([a-z0-9]+-?)+){0,2}$",
+        "no-duplicate-selectors": [true],
         "unit-whitelist": [
             [
                 "em",
@@ -123,10 +123,14 @@ module.exports = {
                         "/^animation/"
                     ],
                     "deg": [
-                        "/^transform/"
+                        "/^transform/",
+                        "/^background/"
                     ],
                     "%": [
                         "/^transform/"
+                    ],
+                    "fr": [
+                        "/^grid-template-columns/"
                     ]
                 }
             }
