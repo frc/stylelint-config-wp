@@ -97,7 +97,7 @@ module.exports = {
         "scss/dollar-variable-pattern": "^[a-z_]([a-z0-9-]+)?(__([a-z0-9]+-?)+)*(--([a-z0-9]+-?)+)*(__([a-z0-9]+-?)+){0,2}$",
         "scss/percent-placeholder-pattern": "^[a-z_]([a-z0-9-]+)?(__([a-z0-9]+-?)+)*(--([a-z0-9]+-?)+)*(__([a-z0-9]+-?)+){0,2}$",
         "no-duplicate-selectors": [true],
-        "unit-whitelist": [
+        "unit-allowed-list": [
             [
                 "em",
                 "rem",
