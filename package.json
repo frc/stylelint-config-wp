@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/frc/stylelint-config-wp#readme",
   "dependencies": {
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.14.2"
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-scss": "^4.0.0"
   },
   "devDependencies": {}
 }
